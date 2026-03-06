@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Franky Concrete Inc & Pumping</title>
+
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #ffffff;
+color: #222;
+}
+
+header {
+background: #000;
+color: white;
+text-align: center;
+padding: 50px 20px;
+}
+
+header img {
+max-width: 220px;
+margin-bottom: 15px;
+}
+
+h1 {
+margin: 10px 0;
+font-size: 34px;
+}
+
+h2 {
+text-align: center;
+margin-bottom: 25px;
+color: #ff6600;
+}
+
+.section {
+padding: 60px 20px;
+max-width: 1100px;
+margin: auto;
+}
+
+.services, .gallery, .reviews {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 25px;
+margin-top: 30px;
+}
+
+.card {
+background: #fff;
+padding: 25px;
+border-radius: 12px;
+border-left: 6px solid #ff6600;
+box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.service-area {
+text-align: center;
+font-weight: bold;
+font-size: 18px;
+margin-top: 20px;
+}
+
+.gallery img {
+width: 100%;
+border-radius: 12px;
+height: 260px;
+object-fit: cover;
+}
+
+.review-box {
+background: #f4f4f4;
+padding: 20px;
+border-radius: 10px;
+}
+
+.cta {
+background: #000;
+color: white;
+text-align: center;
+padding: 60px 20px;
+}
+
+.button {
+background: #ff6600;
+color: white;
+padding: 15px 28px;
+font-size: 18px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+display: inline-block;
+margin-top: 15px;
+}
+
+form {
+max-width: 600px;
+margin: 30px auto;
+display: flex;
+flex-direction: column;
+}
+
+input, textarea {
+padding: 12px;
+margin-bottom: 15px;
+border-radius: 6px;
+border: 1px solid #ccc;
+font-size: 16px;
+}
+
+button {
+padding: 14px;
+background: #ff6600;
+color: white;
+border: none;
+border-radius: 8px;
+font-size: 16px;
+cursor: pointer;
+}
+
+footer {
+background: #111;
+color: white;
+text-align: center;
+padding: 25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="logo.png" alt="Franky Concrete Inc Logo">
+<h1>Franky Concrete Inc & Pumping</h1>
+<p>Strong Concrete. Reliable Team. Built To Last.</p>
+</header>
+
+<section class="section">
+<h2>About Us</h2>
+<p>
+With over 25 years of experience, Franky Concrete Inc proudly provides
+professional concrete and pumping services across Northern California.
+</p>
+<p>
+We are licensed, insured, bonded, and experienced in residential,
+commercial, public works, Caltrans, and prevailing wage projects.
+</p>
+<p>
+We proudly speak Spanish to better serve our community.
+</p>
+<p>
+The team behind Franky Concrete is the reason we are strong and the reason we are a business.
+We work hard, stay on schedule, and deliver quality that lasts.
+</p>
+</section>
+
+<section class="section">
+<h2>Our Services</h2>
+<div class="services">
+<div class="card">
+<h3>Concrete Pumping</h3>
+<p>Clean, safe, and efficient pumping for any size project.</p>
+</div>
+<div class="card">
+<h3>All Concrete Work</h3>
+<p>Foundations, slabs, sidewalks, ADA ramps, retaining walls, bridges, pools and more.</p>
+</div>
+<div class="card">
+<h3>Subcontractor Services</h3>
+<p>Trusted by large companies for major commercial and state projects.</p>
+</div>
+<div class="card">
+<h3>Public Works & Caltrans</h3>
+<p>Experienced with prevailing wage and government projects.</p>
+</div>
+</div>
+
+<div class="service-area">
+Proudly Serving: Sonoma County, Mendocino County, Humboldt County, Marin County & The Entire Bay Area
+</div>
+</section>
+
+<section class="section">
+<h2>Our Work</h2>
+<div class="gallery">
+<img src="job1.jpg" alt="Concrete Job">
+<img src="job2.jpg" alt="Concrete Project">
+<img src="job3.jpg" alt="Concrete Pumping">
+</div>
+</section>
+
+<section class="section">
+<h2>What Our Clients Say</h2>
+<div class="reviews">
+<div class="review-box">
+<p>"Franky Concrete did an amazing job. Professional, on time, and high quality work."</p>
+</div>
+<div class="review-box">
+<p>"Reliable team and very easy to work with. I highly recommend them."</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Request Your FREE Estimate</h2>
+<form action="https://formspree.io/f/yourformid" method="POST">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="tel" name="phone" placeholder="Your Phone Number" required>
+<input type="email" name="email" placeholder="Your Email">
+<textarea name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+
+<section class="cta">
+<h2>Call Today For A FREE Estimate</h2>
+<p>Big job or small job, we are ready. Let’s build something strong together.</p>
+<a class="button" href="tel:17073765511">Call Now: (707) 376-5511</a>
+<p style="margin-top:15px;">Email: frankyconcreteinc@gmail.com</p>
+</section>
+
+<footer>
+<p>Franky Concrete Inc & Pumping | LIC #1110138 | Licensed & Insured</p>
+</footer>
+
+</body>
+</html>
